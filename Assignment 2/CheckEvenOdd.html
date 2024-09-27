@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Even or Odd Number</title>
+  </head>
+  <body>
+    <h1>Check Even or Odd</h1>
+    <input id="input-number" type="number" placeholder="Enter a number">
+    <button id="check-even-odd">Check</button>
+    <p id="result"></p>
+
+    <script>
+      const inputNumber = document.getElementById('input-number');
+      const checkButton = document.getElementById('check-even-odd');
+      const resultParagraph = document.getElementById('result');
+
+      checkButton.addEventListener('click', () => {
+        const num = parseInt(inputNumber.value);
+        const result = num % 2 === 0 ? `The number ${num} is even` : `The number ${num} is odd`;
+        resultParagraph.textContent = result;
+      });
+    </script>
+  </body>
+</html>

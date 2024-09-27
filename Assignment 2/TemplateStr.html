@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS String template</title>
+  </head>
+  <body>
+    <h1>Greeting Message</h1>
+    <input id="input-name" type="text" placeholder="Enter your name">
+    <input id="input-age" type="number" placeholder="Enter your age">
+    <button id="generate-greeting">Generate msg</button>
+
+    <script>
+      const inputName = document.getElementById('input-name');
+      const inputAge = document.getElementById('input-age');
+      const generateButton = document.getElementById('generate-greeting');
+
+      generateButton.addEventListener('click', () => {
+        const name = inputName.value;
+        const age = inputAge.value;
+        const greetingMessage = `Hello, ${name}! You are ${age} years old.`;
+        console.log(greetingMessage);
+      });
+    </script>
+  </body>
+</html>

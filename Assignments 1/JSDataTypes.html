@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types</title>
+</head>
+<body>
+    <h1>JavaScript Data Types</h1>
+    <script>
+        function getDataType(value) {
+            return typeof value;
+          }
+          
+          // Test the function with different values
+          console.log("Data type of 50:", getDataType(50)); // number
+          console.log("Data type of 'sejal':", getDataType('sejal')); // string
+          console.log("Data type of [11, 22,33, 44 ]:", getDataType([11, 22, 33, 44])); // object (array is a type of object in JavaScript)
+          console.log("Data type of {a: 1, b: 2}:", getDataType({a: 1, b: 2})); // object
+          console.log("Data type of true:", getDataType(true)); // boolean
+          console.log("Data type of null:", getDataType(null)); // object (null is a type of object in JavaScript)
+          console.log("Data type of undefined:", getDataType(undefined)); // undefined
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+1. JavaScript Introduction
+Assignment:
+Write a brief essay (200-300 words) explaining what JavaScript is, its importance in web development, and how it differs from other programming languages.
+
+2. JavaScript Where To
+Assignment:
+Create a simple HTML file that includes an external JavaScript file. Write a function in the JavaScript file that changes the background color of the webpage when the page is loaded.
+
+3. JavaScript Output
+Assignment:
+Use console.log(), alert(), and document.write() to display a message. Write a function that shows a greeting message using each method and explain when to use each output method.
+
+4. JavaScript Statements
+Assignment:
+Create a script that includes at least five different types of JavaScript statements (declarations, assignments, conditionals, loops, and function calls). Document each type with comments explaining what it does.
+
+5. JavaScript Syntax
+Assignment:
+Write a simple JavaScript program that follows the correct syntax rules. Include a mix of variable declarations, function definitions, and control structures. Highlight any syntax errors you might encounter and explain how to fix them.
+
+6. JavaScript Comments
+Assignment:
+Create a JavaScript file and write a program that demonstrates the use of single-line and multi-line comments. Document each section of your code, explaining its purpose.
+
+7. JavaScript Variables
+Assignment:
+Write a script that declares variables of different types (string, number, boolean) and logs their values and types to the console. Use the typeof operator to demonstrate how it works.
+
+8. JavaScript Let
+Assignment:
+Create a program that demonstrates the difference between var and let. Use both declarations in a function and show how the scope differs.
+
+9. JavaScript Const
+Assignment:
+Write a script that uses const to define a constant value (e.g., a mathematical constant like PI). Try to reassign it and demonstrate what happens, including an error message.
+
+10. JavaScript Operators
+Assignment:
+Create a calculator function that accepts two numbers and an operator (addition, subtraction, multiplication, or division) and returns the result. Use appropriate JavaScript operators for the calculations.
+
+11. JavaScript Arithmetic
+Assignment:
+Write a script that performs a series of arithmetic operations on two user-provided numbers. Log the results of addition, subtraction, multiplication, and division to the console.
+
+12. JavaScript Assignment
+Assignment:
+Demonstrate different assignment operators (=, +=, -=, *=, /=) in a program. Show how each operator modifies the value of a variable.
+
+13. JavaScript Data Types
+Assignment:
+Create a function that takes a value as input and returns its data type as a string. Use typeof to determine the type and log results for different values (e.g., number, string, array, object).
+
+14. JavaScript Functions
+Assignment:
+Write a JavaScript function that takes two parameters (name and age) and returns a formatted string that says, “Hello, my name is [name] and I am [age] years old.” Test the function with different values.

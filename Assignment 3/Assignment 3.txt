@@ -1,0 +1,180 @@
+Assignment 1: JS Dates
+Objective: Understand how to work with dates in JavaScript.
+
+Tasks:
+
+Create a JavaScript program that initializes a new Date object and logs the current date and time to the console.
+Write a function that takes a date string as input and returns the corresponding Date object.
+Assignment 2: JS Date Formats
+Objective: Learn different date formats in JavaScript.
+
+Tasks:
+
+Create a function that formats a given Date object into a string in the format "MM/DD/YYYY".
+Write a program that logs the current date in three different formats: ISO format, locale string format, and a custom format of your choice.
+Assignment 3: JS Date Get Methods
+Objective: Use Date object get methods.
+
+Tasks:
+
+Create a function that takes a Date object and returns the year, month, and day using getFullYear(), getMonth(), and getDate().
+Write a program that logs the current hour, minute, and second using getHours(), getMinutes(), and getSeconds().
+Assignment 4: JS Date Set Methods
+Objective: Use Date object set methods.
+
+Tasks:
+
+Create a function that takes a Date object and modifies it to set a new day, month, and year using setDate(), setMonth(), and setFullYear().
+Write a program that changes the current date to the first day of the next month.
+Assignment 5: JS Math
+Objective: Use Math methods in JavaScript.
+
+Tasks:
+
+Write a function that takes a number and returns its square root using Math.sqrt().
+Create a program that generates a random number between 1 and 100 using Math.random() and rounds it to the nearest whole number.
+Assignment 6: JS Random
+Objective: Generate random values.
+
+Tasks:
+
+Write a function that generates a random integer between two specified values.
+Create an array of 10 random numbers and write a program to find the maximum and minimum values.
+Assignment 7: JS Booleans
+Objective: Understand boolean values and their usage.
+
+Tasks:
+
+Write a function that checks if a number is positive, negative, or zero, and returns a boolean for each case.
+Create a program that uses boolean expressions to evaluate whether a person is eligible to vote (age 18 or older).
+Assignment 8: JS Comparisons
+Objective: Use comparison operators.
+
+Tasks:
+
+Write a function that compares two numbers and returns a string indicating which is larger, or if they are equal.
+Create a program that checks if a given string is equal to "JavaScript" using both strict and loose equality checks.
+Assignment 9: JS If Else
+Objective: Use conditional statements.
+
+Tasks:
+
+Write a program that takes a grade as input and outputs the corresponding letter grade (A, B, C, D, F).
+Create a function that checks whether a number is even or odd and logs a message to the console.
+Assignment 10: JS Switch
+Objective: Implement switch statements.
+
+Tasks:
+
+Write a program that takes a day number (1-7) and returns the corresponding day of the week.
+Create a function that evaluates a simple expression (like a small calculator) using a switch statement.
+Assignment 11: JS Loop For
+Objective: Use the for loop.
+
+Tasks:
+
+Write a program that prints all even numbers from 1 to 100.
+Create a function that calculates the factorial of a number using a for loop.
+Assignment 12: JS Loop For In
+Objective: Use the for...in loop.
+
+Tasks:
+
+Create an object representing a person (with properties like name, age, and job) and use a for...in loop to log each property and its value.
+Write a function that sums all numeric properties of an object using a for...in loop.
+Assignment 13: JS Loop For Of
+Objective: Use the for...of loop.
+
+Tasks:
+
+Write a program that iterates through an array of numbers and logs each number multiplied by 2.
+Create a function that accepts an iterable (like an array or string) and returns an array of its elements.
+Assignment 14: JS Loop While
+Objective: Use the while loop.
+
+Tasks:
+
+Write a program that uses a while loop to print numbers from 1 to 10.
+Create a function that repeatedly asks the user for input until they enter "stop".
+Assignment 15: JS Break
+Objective: Use the break statement.
+
+Tasks:
+
+Write a program that uses a loop to find the first number greater than 50 in an array and breaks out of the loop.
+Create a function that loops through numbers 1 to 100 and breaks if it finds a number divisible by 13.
+Assignment 16: JS Iterables
+Objective: Understand iterables in JavaScript.
+
+Tasks:
+
+Create a custom iterable object and implement the [Symbol.iterator] method.
+Write a function that takes an iterable and returns an array of its elements.
+Assignment 17: JS Sets
+Objective: Learn about sets in JavaScript.
+
+Tasks:
+
+Create a Set from an array of numbers and log its size.
+Write a program that adds and removes elements from a Set and logs the results.
+Assignment 18: JS Set Methods
+Objective: Use Set methods.
+
+Tasks:
+
+Write a function that takes two arrays, converts them to Sets, and returns their intersection.
+Create a program that demonstrates the use of has(), delete(), and clear() methods of a Set.
+Assignment 19: JS Maps
+Objective: Understand maps in JavaScript.
+
+Tasks:
+
+Create a Map that associates names with ages, and log each key-value pair.
+Write a function that converts an array of key-value pairs into a Map.
+Assignment 20: JS Map Methods
+Objective: Use Map methods.
+
+Tasks:
+
+Write a function that takes a Map and returns an array of its keys.
+Create a program that uses set(), get(), and has() methods of a Map.
+
+Assignment 21: JS Typeof
+Objective: Use the typeof operator.
+
+Tasks:
+
+Write a function that takes a variable and returns its type using typeof.
+Create a program that logs the type of various variables (string, number, object, array, function).
+
+Assignment 22: JS Type Conversion
+Objective: Understand type conversion in JavaScript.
+
+Tasks:
+
+Write a program that converts a string to a number and logs the result.
+Create a function that checks the type of a variable and converts it to a specified type.
+
+Assignment 23: JS Destructuring
+Objective: Use destructuring assignment.
+
+Tasks:
+
+Write a program that uses array destructuring to extract the first two elements from an array.
+Create a function that takes an object and destructures its properties to return a formatted string.
+
+Assignment 24: JS Bitwise
+Objective: Understand bitwise operators.
+
+Tasks:
+
+Write a program that demonstrates the use of bitwise AND, OR, and NOT operators on two numbers.
+Create a function that takes two binary strings, converts them to numbers, and returns their bitwise XOR result.
+
+Assignment 25: JS RegExp
+Objective: Work with regular expressions.
+
+Tasks:
+
+Write a function that validates an email address using a regular expression.
+Create a program that extracts all the digits from a given string using a regular expression.

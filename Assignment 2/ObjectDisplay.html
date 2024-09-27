@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Displaying Object Properties</title>
+</head>
+<body >
+  <h1>Person Details</h1>
+  <p id="person-details"></p>
+
+  <script>
+    // Create a person object
+    const person = {
+      Name: "Priya Sharma",
+      Age: 30,
+      Occupation: "Software Engineer"
+    };
+
+    // Get the paragraph element
+    const paragraph = document.getElementById("person-details");
+
+    // Display the person object properties
+    let text = "";
+    for (let property in person) {
+      text += `${property}: ${person[property]}<br>`;
+    }
+    paragraph.innerHTML = text;
+  </script>
+</body>
+</html>

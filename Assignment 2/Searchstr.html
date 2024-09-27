@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Substring Search</title>
+  </head>
+  <body>
+    <h1>Substring Search</h1>
+    <input id="input-string" type="text" placeholder="Enter a string">
+    <input id="input-substring" type="text" placeholder="Enter a substring">
+    <button id="search-substring">Search</button>
+    <p id="result"></p>
+
+    <script>
+      const inputString = document.getElementById('input-string');
+      const inputSubstring = document.getElementById('input-substring');
+      const searchButton = document.getElementById('search-substring');
+      const resultParagraph = document.getElementById('result');
+
+      searchButton.addEventListener('click', () => {
+        const str = inputString.value;
+        const substr = inputSubstring.value;
+        const result = str.includes(substr);
+        resultParagraph.textContent = `The substring "${substr}" ${result ? 'exists' : 'does not exist'} in the string`;
+      });
+    </script>
+  </body>
+</html>

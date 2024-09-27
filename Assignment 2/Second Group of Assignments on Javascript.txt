@@ -1,0 +1,59 @@
+JS Objects
+Assignment: Create a JavaScript object to represent a book. Include properties like title, author, yearPublished, and genre. Write a function to display the book details in a formatted string.
+
+JS Object Properties
+Assignment: Write a program that creates an object representing a car with properties such as make, model, year, and color. Implement functions to add, modify, and delete properties dynamically.
+
+JS Object Methods
+Assignment: Extend the car object from the previous assignment to include methods like getCarInfo() and updateColor(newColor). Demonstrate their use in a console log.
+
+JS Object Display
+Assignment: Create an HTML page with a JavaScript script that displays the properties of an object on the page using DOM manipulation. Use a person object with properties like name, age, and occupation.
+
+JS Object Constructors
+Assignment: Implement a constructor function for creating Employee objects. Include properties for name, position, and salary, and a method to display employee information.
+
+JS Events   
+Assignment: Build a simple web page with a button that changes the background color of the page when clicked. Use event listeners to handle the button click.
+
+JS Strings
+Assignment: Write a function that takes a string input and returns the string reversed. Use various string methods to manipulate the input.
+
+JS String Methods
+Assignment: Create a program that counts the number of vowels in a given string. Utilize string methods such as .toLowerCase(), .split(), and .filter().
+
+JS String Search
+Assignment: Write a function that checks if a given substring exists within a string. Return a boolean value indicating the result.
+
+JS String Templates
+Assignment: Use template literals to create a greeting message for a user based on their name and age. Display the message in the console.
+
+JS Numbers
+Assignment: Write a program that takes a number as input and determines whether it is even or odd. Use modulus operator to achieve this.
+
+JS BigInt
+Assignment: Create a program that uses BigInt to handle large integers, such as factorial calculations. Compare performance with regular number calculations.
+
+JS Number Methods
+Assignment: Write a function that takes a decimal number and rounds it to the nearest whole number using the .Math.round() method. Also, demonstrate .Math.ceil() and .Math.floor().
+
+JS Number Properties
+Assignment: Explore the properties of JavaScript numbers by creating a program that demonstrates Number.MAX_VALUE, Number.MIN_VALUE, and Number.NaN.
+
+JS Arrays
+Assignment: Create an array of your favorite fruits and write functions to add, remove, and display the list of fruits.
+
+JS Array Methods
+Assignment: Implement an array of numbers and demonstrate the use of .map(), .filter(), and .reduce() methods to transform the array in different ways.
+
+JS Array Search
+Assignment: Write a function that takes an array of strings and a search term, returning all strings that contain the search term.
+
+JS Array Sort
+Assignment: Create an array of objects representing students (with properties like name and grade) and sort them by grade. Display the sorted list.
+
+JS Array Iteration
+Assignment: Use .forEach() to iterate over an array of numbers and print each number multiplied by 2.
+
+JS Array Const
+Assignment: Create a constant array representing a set of colors. Attempt to modify the array and explain the difference between reassigning the array and modifying its contents.

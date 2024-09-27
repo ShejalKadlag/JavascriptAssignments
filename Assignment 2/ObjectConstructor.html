@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Constructor Function</title>
+</head>
+<body>
+  <h1>Employee Information</h1>
+  <p id="employee-info"></p>
+
+  <script>
+    // Constructor function for creating Employee objects
+    function Employee(name, position, salary) {
+      this.name = name;
+      this.position = position;
+      this.salary = salary;
+
+      // Method to display employee information
+      this.displayInfo = function() {
+        return `Name: ${this.name}<br>Position: ${this.position}<br>Salary: ${this.salary}`;
+      };
+    }
+
+    // Create multiple Employee objects
+    const employees = [
+      new Employee("Neha Sharma", "Software Engineer", 400000),
+      new Employee("Kiran Mohite", "Data Analyst", 600000)
+    ];
+
+    // Get the paragraph element
+    const paragraph = document.getElementById("employee-info");
+
+    // Display the employee information
+    let text = "";
+    for (let employee of employees) {
+      text += employee.displayInfo() + "<br><br>";
+    }
+    paragraph.innerHTML = text;
+  </script>
+</body>
+</html>

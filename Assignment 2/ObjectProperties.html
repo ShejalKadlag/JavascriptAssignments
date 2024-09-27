@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Object Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label {
+            display: inline-block;
+            width: 70px;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Object Manager</h1>
+    
+    <!-- Input form for adding/modifying properties -->
+    <div>
+        <h3>Add or Modify Property</h3>
+        <label for="property">Property:</label>
+        <input type="text" id="property" placeholder="e.g., make"><br>
+        <label for="value">Value:</label>
+        <input type="text" id="value" placeholder="e.g., Toyota"><br>
+        <button onclick="addOrModifyProperty()">Add/Modify</button>
+    </div>
+    
+    <!-- Input form for deleting properties -->
+    <div>
+        <h3>Delete Property</h3>
+        <label for="deleteProperty">Property:</label>
+        <input type="text" id="deleteProperty" placeholder="e.g., make"><br>
+        <button onclick="deleteProperty()">Delete</button>
+    </div>
+    
+    <!-- Display the Car object -->
+    <h3>Car Object:</h3>
+    <pre id="carDisplay"></pre>
+
+    <script>
+        // Car object
+        let car = {
+            make: 'Toyota',
+            model: 'Corolla',
+            year: 2020,
+            color: 'Blue'
+        };
+
+        // Function to update the displayed Car object
+        function displayCar() {
+            const carDisplay = document.getElementById('carDisplay');
+            carDisplay.textContent = JSON.stringify(car, null, 4);
+        }
+
+        // Function to add or modify a property
+        function addOrModifyProperty() {
+            const property = document.getElementById('property').value;
+            const value = document.getElementById('value').value;
+
+            if (property && value) {
+                car[property] = value;
+                displayCar();
+            } else {
+                alert('Please enter both property and value.');
+            }
+        }
+
+        // Function to delete a property
+        function deleteProperty() {
+            const property = document.getElementById('deleteProperty').value;
+            if (property in car) {
+                delete car[property];
+                displayCar();
+            } else {
+                alert('Property does not exist.');
+            }
+        }
+
+        // Initialize by displaying the current Car object
+        displayCar();
+    </script>
+</body>
+</html>
